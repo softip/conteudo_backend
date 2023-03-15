@@ -32,7 +32,5 @@ foreach($alunos as $key => $value){
     printf("%23s\n", "+-----------+");
     printf("%9s | %9s | \n", $key, $value);
 }
-
-
 ?>
 </pre>
