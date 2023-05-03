@@ -16,7 +16,7 @@
 
    //faz a vinculação dos parâmetros ?, ?, ?
    $comando->bind_param("sssi", $nome, $login, $senha, $id);
-
+                        
    //executa o comando
    $comando->execute();
 
