@@ -3,10 +3,15 @@
 <?php  include_once "menu.php" ?>
 
 <?php  
+   $a = 10;
+   echo $A;
+
+
+
    $id = $_GET["id"];
    $noticia = $noticias[$id];
 
-?>
+
 
 <div class="container">
    <h1><?php echo $noticia['titulo']; ?></h1>
